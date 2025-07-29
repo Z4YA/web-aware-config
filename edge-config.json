@@ -1,0 +1,29 @@
+{
+  "rules": [
+    {
+      "match": "*://chatgpt.com/*",
+      "message": "⚠️ You've come across a Gen AI tool. Read the AI Policy & QM Document. ⚠️"
+    },
+    {
+      "match": "*://huggingface.co/*",
+      "message": "⚠️ Gen AI Tool. Read the AI Policy & QM Document. ⚠️"
+    },
+    {
+      "match": "*://*.huggingface.co/*",
+      "message": "⚠️ Gen AI Tool. Read the AI Policy & QM Document. ⚠️"
+    },
+    {
+      "match": "*://gemini.google.com/*",
+      "message": "⚠️ Gen AI Tool. Read the AI Policy & QM Document. ⚠️"
+    },
+    {
+      "match": "*://claude.ai/*",
+      "message": "⚠️ Non-Approved Gen AI Tool. Read the AI Policy & QM Document. ⚠️"
+    },
+    {
+      "match": "*://*.claude.ai/*",
+      "message": "⚠️ Non-Approved Gen AI Tool. Read the AI Policy & QM Document. ⚠️"
+    }
+  ]
+}
+
