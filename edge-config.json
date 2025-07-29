@@ -23,6 +23,14 @@
     {
       "match": "*://*.claude.ai/*",
       "message": "⚠️ Non-Approved Gen AI Tool. Read the AI Policy & QM Document. ⚠️"
+    },
+    {
+      "match": "*://anyword.com/*",
+      "message": "⚠️ Non-Approved Gen AI Tool. Read the AI Policy & QM Document. ⚠️"
+    },
+    {
+      "match": "*://*.anyword.com/*",
+      "message": "⚠️ Non-Approved Gen AI Tool. Read the AI Policy & QM Document. ⚠️"
     }
   ]
 }
