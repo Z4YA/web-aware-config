@@ -2,7 +2,7 @@
   "rules": [
     {
       "match": "*://chatgpt.com/*",
-      "message": "⚠️ You've come across a Gen AI tool. Read the AI Policy & QM Document. ⚠️"
+      "message": "⚠️ Gen AI tool. Read the AI Policy & QM Document. ⚠️"
     },
     {
       "match": "*://huggingface.co/*",
